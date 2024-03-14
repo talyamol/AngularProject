@@ -1,0 +1,45 @@
+<!-- <a routerLink="/user/login"> כניסה</a>
+<a routerLink="/user/logout"> יציאה</a>
+<a routerLink="/user/register">הרשמה </a>
+<a routerLink="/course/all-courses">הקורסים שלנו</a>
+<a routerLink="/course/add-course">הוספת קורס</a>
+ -->
+
+ <mat-toolbar color="primary" class="mat-toolbar">
+    
+    <span class="centered-content">
+        <!-- קישור להרשמה וכניסה -->
+        <a mat-button routerLink="user/register">
+            <mat-icon>person_add</mat-icon>
+            הרשמה
+        </a>
+        <a mat-button routerLink="user/login">
+            <mat-icon>login</mat-icon>
+            כניסה
+        </a>
+        <a mat-button routerLink="user/logout">
+            <mat-icon>exit_to_app</mat-icon>
+            יציאה
+        </a>
+
+        <!-- קישור להוספת מתכון -->
+        <a mat-button routerLink="/course/add-course">
+            <mat-icon>add</mat-icon>
+           הוספת קורס
+        </a>
+
+        <!-- קישורים לעמודי מתכונים ודף הבית -->
+        <a mat-button routerLink="/course/all-courses">
+            <mat-icon>computer</mat-icon>
+            הקורסים שלנו
+        </a>
+        <a mat-button routerLink="/home">
+            <mat-icon>home</mat-icon>
+            דף הבית
+        </a>
+       
+    </span>
+ 
+    
+</mat-toolbar>
+

@@ -1,0 +1,64 @@
+<form [formGroup]="editForm" class="form">
+      <div class="container">
+        <div class="grid-container">
+          <div class="form-field">
+            <mat-form-field>
+              <mat-label for="name">שם הקורס</mat-label>
+              <input matInput formControlName="name" type="text"
+                [ngClass]="{'invalid': editForm.get('name').invalid && editForm.get('name').touched}">
+            </mat-form-field>
+            <p *ngIf="editForm.get('name').hasError('required') && editForm.get('name').touched"> </p>
+            <p *ngIf="editForm.get('name').hasError('minlength') && editForm.get('name').touched"> שם הקורס חייב להיות לפחות 5
+              תווים </p>
+            <p *ngIf="editForm.get('name').hasError('invalidCourseName')"></p>
+          </div>
+    
+          <div class="form-field">
+            <mat-form-field>
+              <mat-label>מספר השיעורים</mat-label>
+              <input matInput class="example-right-align" formControlName="count" type="number"
+                [ngClass]="{'invalid': editForm.get('count').invalid && editForm.get('count').touched}">
+            </mat-form-field>
+          </div>
+    
+          <div class="form-field">
+      <mat-form-field>
+        <mat-label>תאריך התחלה</mat-label>
+        <input matInput [matDatepicker]="picker" formControlName="date" [placeholder]="'YYYY/MM/DD'"
+          [ngClass]="{'invalid': editForm.get('date').invalid && editForm.get('date').touched}">
+        <mat-datepicker-toggle matSuffix [for]="picker"></mat-datepicker-toggle>
+        <mat-datepicker #picker></mat-datepicker>
+      </mat-form-field>
+      <p *ngIf="editForm.get('date').hasError('required') && editForm.get('date').touched"> זהו שדה חובה</p>
+    </div>
+    
+    
+          <div class="form-field">
+            <mat-form-field>
+              <mat-label>נושאי הקורס</mat-label>
+              <input class="syllabus" matInput (blur)="addInput(syllabusControl)" type="text" [formControl]="syllabusControl">
+              <div *ngFor="let input of inputArray; let i = index">
+                <input class="syllabus" matInput (blur)="addInput(inputArrayControls[i])" type="text"
+                  [formControl]="inputArrayControls[i]">
+              </div>
+            </mat-form-field>
+          </div>
+    
+          <div class="form-field">
+            <mat-form-field>
+              <mat-label for="category">קטגוריה:</mat-label>
+              <mat-select formControlName="category" id="category"
+                [ngClass]="{'invalid': editForm.get('category').invalid && editForm.get('category').touched}">
+                <mat-option *ngFor="let category of allCategories" [value]="category">{{ category.name }}</mat-option>
+              </mat-select>
+            </mat-form-field>
+            <div *ngIf="editForm.get('category').hasError('required') && editForm.get('category').touched"></div>
+          </div>
+        </div>
+
+  <button type="button" (click)="saveChange()" [disabled]="!editForm.valid">שמירת קורס</button>
+  <!--
+  <button type="button" (click)="onSave()" [disabled]="!editForm.valid">שמירת קורס</button>
+  <button type="button" (click)="onCancel()">ביטול</button> -->
+      </div>
+</form>

@@ -1,0 +1,31 @@
+.form{
+    
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 100vh; /* גובה מלא של המסך */
+      
+}
+
+/* .syllabus{
+border-color: black;
+}
+.container mat-form-field + mat-form-field {
+    margin-left: 8px;
+  } */
+
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 16px; /* רווח בין השדות */
+  }
+  
+  .form-field {
+    width: 100%; 
+   
+  }
+  
+  .example-label {
+    grid-column: span 1; /* רוחב הכפתור כדי שיהיה באותו שורה */
+  }

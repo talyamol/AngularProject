@@ -1,0 +1,15 @@
+.mat-toolbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000; /* כדי להבטיח שהסרגל יופיע מעל תכנים אחרים */
+    justify-content: space-around;
+    /* background-color:plum ; */
+  }
+  
+  .centered-content {
+    display: flex;
+    flex-direction: row;
+    align-items: center
+  }
+  

@@ -1,0 +1,170 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\talya\\Documents\\\u05EA\u05DB\u05E0\u05D5\u05EA\\\u05EA\u05E9\u05E4\u05D3\\Angular\\ProjectAngular\\AngularServer\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C2BD948D-FBBA-4051-AC2D-A591AE4B9958}|AngularServer\\AngularServer.csproj|c:\\users\\talya\\documents\\\u05EA\u05DB\u05E0\u05D5\u05EA\\\u05EA\u05E9\u05E4\u05D3\\angular\\projectangular\\angularserver\\angularserver\\controllers\\coursecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C2BD948D-FBBA-4051-AC2D-A591AE4B9958}|AngularServer\\AngularServer.csproj|solutionrelative:angularserver\\controllers\\coursecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C2BD948D-FBBA-4051-AC2D-A591AE4B9958}|AngularServer\\AngularServer.csproj|c:\\users\\talya\\documents\\\u05EA\u05DB\u05E0\u05D5\u05EA\\\u05EA\u05E9\u05E4\u05D3\\angular\\projectangular\\angularserver\\angularserver\\course.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C2BD948D-FBBA-4051-AC2D-A591AE4B9958}|AngularServer\\AngularServer.csproj|solutionrelative:angularserver\\course.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C2BD948D-FBBA-4051-AC2D-A591AE4B9958}|AngularServer\\AngularServer.csproj|c:\\users\\talya\\documents\\\u05EA\u05DB\u05E0\u05D5\u05EA\\\u05EA\u05E9\u05E4\u05D3\\angular\\projectangular\\angularserver\\angularserver\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C2BD948D-FBBA-4051-AC2D-A591AE4B9958}|AngularServer\\AngularServer.csproj|solutionrelative:angularserver\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C2BD948D-FBBA-4051-AC2D-A591AE4B9958}|AngularServer\\AngularServer.csproj|c:\\users\\talya\\documents\\\u05EA\u05DB\u05E0\u05D5\u05EA\\\u05EA\u05E9\u05E4\u05D3\\angular\\projectangular\\angularserver\\angularserver\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C2BD948D-FBBA-4051-AC2D-A591AE4B9958}|AngularServer\\AngularServer.csproj|solutionrelative:angularserver\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C2BD948D-FBBA-4051-AC2D-A591AE4B9958}|AngularServer\\AngularServer.csproj|c:\\users\\talya\\documents\\\u05EA\u05DB\u05E0\u05D5\u05EA\\\u05EA\u05E9\u05E4\u05D3\\angular\\projectangular\\angularserver\\angularserver\\controllers\\lecturercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C2BD948D-FBBA-4051-AC2D-A591AE4B9958}|AngularServer\\AngularServer.csproj|solutionrelative:angularserver\\controllers\\lecturercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C2BD948D-FBBA-4051-AC2D-A591AE4B9958}|AngularServer\\AngularServer.csproj|c:\\users\\talya\\documents\\\u05EA\u05DB\u05E0\u05D5\u05EA\\\u05EA\u05E9\u05E4\u05D3\\angular\\projectangular\\angularserver\\angularserver\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C2BD948D-FBBA-4051-AC2D-A591AE4B9958}|AngularServer\\AngularServer.csproj|solutionrelative:angularserver\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C2BD948D-FBBA-4051-AC2D-A591AE4B9958}|AngularServer\\AngularServer.csproj|c:\\users\\talya\\documents\\\u05EA\u05DB\u05E0\u05D5\u05EA\\\u05EA\u05E9\u05E4\u05D3\\angular\\projectangular\\angularserver\\angularserver\\lecturer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C2BD948D-FBBA-4051-AC2D-A591AE4B9958}|AngularServer\\AngularServer.csproj|solutionrelative:angularserver\\lecturer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C2BD948D-FBBA-4051-AC2D-A591AE4B9958}|AngularServer\\AngularServer.csproj|c:\\users\\talya\\documents\\\u05EA\u05DB\u05E0\u05D5\u05EA\\\u05EA\u05E9\u05E4\u05D3\\angular\\projectangular\\angularserver\\angularserver\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C2BD948D-FBBA-4051-AC2D-A591AE4B9958}|AngularServer\\AngularServer.csproj|solutionrelative:angularserver\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C2BD948D-FBBA-4051-AC2D-A591AE4B9958}|AngularServer\\AngularServer.csproj|c:\\users\\talya\\documents\\\u05EA\u05DB\u05E0\u05D5\u05EA\\\u05EA\u05E9\u05E4\u05D3\\angular\\projectangular\\angularserver\\angularserver\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C2BD948D-FBBA-4051-AC2D-A591AE4B9958}|AngularServer\\AngularServer.csproj|solutionrelative:angularserver\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 9,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Course.cs",
+              "DocumentMoniker": "C:\\Users\\talya\\Documents\\\u05EA\u05DB\u05E0\u05D5\u05EA\\\u05EA\u05E9\u05E4\u05D3\\Angular\\ProjectAngular\\AngularServer\\AngularServer\\Course.cs",
+              "RelativeDocumentMoniker": "AngularServer\\Course.cs",
+              "ToolTip": "C:\\Users\\talya\\Documents\\\u05EA\u05DB\u05E0\u05D5\u05EA\\\u05EA\u05E9\u05E4\u05D3\\Angular\\ProjectAngular\\AngularServer\\AngularServer\\Course.cs",
+              "RelativeToolTip": "AngularServer\\Course.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAABlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-07T19:56:40.975Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\talya\\Documents\\\u05EA\u05DB\u05E0\u05D5\u05EA\\\u05EA\u05E9\u05E4\u05D3\\Angular\\ProjectAngular\\AngularServer\\AngularServer\\Program.cs",
+              "RelativeDocumentMoniker": "AngularServer\\Program.cs",
+              "ToolTip": "C:\\Users\\talya\\Documents\\\u05EA\u05DB\u05E0\u05D5\u05EA\\\u05EA\u05E9\u05E4\u05D3\\Angular\\ProjectAngular\\AngularServer\\AngularServer\\Program.cs",
+              "RelativeToolTip": "AngularServer\\Program.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAABoAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-07T19:56:41.592Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\talya\\Documents\\\u05EA\u05DB\u05E0\u05D5\u05EA\\\u05EA\u05E9\u05E4\u05D3\\Angular\\ProjectAngular\\AngularServer\\AngularServer\\User.cs",
+              "RelativeDocumentMoniker": "AngularServer\\User.cs",
+              "ToolTip": "C:\\Users\\talya\\Documents\\\u05EA\u05DB\u05E0\u05D5\u05EA\\\u05EA\u05E9\u05E4\u05D3\\Angular\\ProjectAngular\\AngularServer\\AngularServer\\User.cs",
+              "RelativeToolTip": "AngularServer\\User.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAuwBAAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-07T19:56:41.602Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Category.cs",
+              "DocumentMoniker": "C:\\Users\\talya\\Documents\\\u05EA\u05DB\u05E0\u05D5\u05EA\\\u05EA\u05E9\u05E4\u05D3\\Angular\\ProjectAngular\\AngularServer\\AngularServer\\Category.cs",
+              "RelativeDocumentMoniker": "AngularServer\\Category.cs",
+              "ToolTip": "C:\\Users\\talya\\Documents\\\u05EA\u05DB\u05E0\u05D5\u05EA\\\u05EA\u05E9\u05E4\u05D3\\Angular\\ProjectAngular\\AngularServer\\AngularServer\\Category.cs",
+              "RelativeToolTip": "AngularServer\\Category.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-07T19:56:41.605Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Lecturer.cs",
+              "DocumentMoniker": "C:\\Users\\talya\\Documents\\\u05EA\u05DB\u05E0\u05D5\u05EA\\\u05EA\u05E9\u05E4\u05D3\\Angular\\ProjectAngular\\AngularServer\\AngularServer\\Lecturer.cs",
+              "RelativeDocumentMoniker": "AngularServer\\Lecturer.cs",
+              "ToolTip": "C:\\Users\\talya\\Documents\\\u05EA\u05DB\u05E0\u05D5\u05EA\\\u05EA\u05E9\u05E4\u05D3\\Angular\\ProjectAngular\\AngularServer\\AngularServer\\Lecturer.cs",
+              "RelativeToolTip": "AngularServer\\Lecturer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-07T19:56:41.608Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "LecturerController.cs",
+              "DocumentMoniker": "C:\\Users\\talya\\Documents\\\u05EA\u05DB\u05E0\u05D5\u05EA\\\u05EA\u05E9\u05E4\u05D3\\Angular\\ProjectAngular\\AngularServer\\AngularServer\\Controllers\\LecturerController.cs",
+              "RelativeDocumentMoniker": "AngularServer\\Controllers\\LecturerController.cs",
+              "ToolTip": "C:\\Users\\talya\\Documents\\\u05EA\u05DB\u05E0\u05D5\u05EA\\\u05EA\u05E9\u05E4\u05D3\\Angular\\ProjectAngular\\AngularServer\\AngularServer\\Controllers\\LecturerController.cs",
+              "RelativeToolTip": "AngularServer\\Controllers\\LecturerController.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAxwBMAAAB2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-07T19:56:41.614Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CategoryController.cs",
+              "DocumentMoniker": "C:\\Users\\talya\\Documents\\\u05EA\u05DB\u05E0\u05D5\u05EA\\\u05EA\u05E9\u05E4\u05D3\\Angular\\ProjectAngular\\AngularServer\\AngularServer\\Controllers\\CategoryController.cs",
+              "RelativeDocumentMoniker": "AngularServer\\Controllers\\CategoryController.cs",
+              "ToolTip": "C:\\Users\\talya\\Documents\\\u05EA\u05DB\u05E0\u05D5\u05EA\\\u05EA\u05E9\u05E4\u05D3\\Angular\\ProjectAngular\\AngularServer\\AngularServer\\Controllers\\CategoryController.cs",
+              "RelativeToolTip": "AngularServer\\Controllers\\CategoryController.cs",
+              "ViewState": "AQIAAB8AAAAAAAAAAAAQwC4AAABoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-07T19:56:41.619Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\talya\\Documents\\\u05EA\u05DB\u05E0\u05D5\u05EA\\\u05EA\u05E9\u05E4\u05D3\\Angular\\ProjectAngular\\AngularServer\\AngularServer\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "AngularServer\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\talya\\Documents\\\u05EA\u05DB\u05E0\u05D5\u05EA\\\u05EA\u05E9\u05E4\u05D3\\Angular\\ProjectAngular\\AngularServer\\AngularServer\\Controllers\\UserController.cs",
+              "RelativeToolTip": "AngularServer\\Controllers\\UserController.cs",
+              "ViewState": "AQIAABgAAAAAAAAAAAAiwCYAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-07T19:56:41.623Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CourseController.cs",
+              "DocumentMoniker": "C:\\Users\\talya\\Documents\\\u05EA\u05DB\u05E0\u05D5\u05EA\\\u05EA\u05E9\u05E4\u05D3\\Angular\\ProjectAngular\\AngularServer\\AngularServer\\Controllers\\CourseController.cs",
+              "RelativeDocumentMoniker": "AngularServer\\Controllers\\CourseController.cs",
+              "ToolTip": "C:\\Users\\talya\\Documents\\\u05EA\u05DB\u05E0\u05D5\u05EA\\\u05EA\u05E9\u05E4\u05D3\\Angular\\ProjectAngular\\AngularServer\\AngularServer\\Controllers\\CourseController.cs",
+              "RelativeToolTip": "AngularServer\\Controllers\\CourseController.cs",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAkwDkAAAB6AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-07T19:56:41.626Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,127 @@
+.container {
+   margin-top:  100px
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    /* אפשר ירידה לשורה הבאה כאשר התכנים עוברים את הרוחב */
+}
+
+.col {
+    flex: 1 0 33.33%;
+    /* 33.33% רוחב בכל פריט עם אפשרות לירידה לשורה הבאה */
+    padding: 0 10px;
+    /* רווח בין הקורסים */
+}
+
+.course-card {
+    max-width: 400px;
+    border-radius: 4px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    direction: rtl;
+    transition: box-shadow 0.3s;
+    margin-top: 20px;
+    /* להוסיף מרווח בין הכרטיס לתוכן הסביבתי */
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 16px;
+    background-color: #f5f5f5;
+    /* width: 100%; */
+}
+
+.course-card h1 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.course-card button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 8px 16px;
+    cursor: pointer;
+    width: 100%;
+    /* גודל הכפתור בגובה מלא של הכרטיס */
+    margin-top: 10px;
+    /* מרווח מעל הכפתור */
+}
+
+.course-card button:hover {
+    background-color: #0056b3;
+}
+
+.categories-section {
+    margin-top: 20px;
+}
+
+.categories-section p {
+    margin: 5px 0;
+}
+
+.courses {
+    display: inline;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    /* ישיבת התוכן בין הסרגל לרוחב הפס */
+
+}
+
+.content {
+    flex: 1;
+    margin-right: 30px;
+    /* הפריטים יופיעו מימין לסרגל */
+}
+
+.sidebar {
+    width: 200px;
+    /* רוחב הסרגל */
+    padding: 20px;
+    background-color: #f5f5f5;
+    border-radius: 4px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    /* קביעת קבוצת הסרגל במקום קבוע */
+    top: 0;
+    /* הצמדת הסרגל לחלק העליון של הדף */
+    right: 0;
+    /* מיקום הסרגל בצד הימני של הדף */
+    height: 100%;
+    /* גובה מלא לסרגל */
+}
+
+.mat-card {
+    /* width: 100%; גודל מקסימלי של כל הכרטיסים */
+
+
+    width: 300px;
+    /* גודל רוחב קבוע */
+    height: 400px;
+    /* גודל גובה קבוע */
+
+}
+img {
+    width: 300px;
+    height: 250px;
+    object-fit: cover; /* כדי לשמור על יחסי תצוגה */
+}
+.sidebar {
+    display: none; /* כבה תצוגת הסרגל כברירת מחדל */
+}
+
+.visible {
+    display: block; /* הצג את הסרגל כאשר הוא מקבל את המחלקה visible */
+}
+.filter{
+    /* margin-top:50vh; */
+
+}
+.toggle-sidebar {
+    position: fixed; /* קביעת מיקום קבוע לכפתור */
+    top: 100px; /* הצמדת הכפתור לחלק העליון של הדף */
+    right: 20px; /* מיקום הכפתור בצד הימני של הדף */
+    z-index: 999; /* כדי להבטיח שהכפתור יהיה מעל לתוכן הדף */
+}

@@ -1,0 +1,49 @@
+<form [formGroup]="addForm" class="example-form">
+  <div class="container">
+    <div class="loginP">
+      <mat-form-field>
+      <mat-label for="password">סיסמה</mat-label>
+      <input matInput [type]="hide ? 'password' : 'text'" formControlName="password">
+      <button mat-icon-button matSuffix (click)="hide = !hide" [attr.aria-label]="'Hide password'" [attr.aria-pressed]="hide">
+        <mat-icon>{{hide ? 'visibility_off' : 'visibility'}}</mat-icon>
+      </button></mat-form-field>
+      <ng-container *ngIf="addForm.controls['password'].errors as passwordError">
+        <p class="pp" *ngIf="passwordError['required']"></p>
+        <p class="pp" *ngIf="passwordError['minlength']">הסיסמה צריכה להכיל לפחות 4 תווים</p>
+      </ng-container>
+    </div>
+  
+    <div class="loginP">
+      <mat-form-field >
+      <mat-label for="name">שם משתמש</mat-label>
+      <input matInput type="text" formControlName="name" class="example-right-align">
+    </mat-form-field>
+      <ng-container *ngIf="addForm.controls['name'].errors as nameError">
+        <p class="pp" *ngIf="nameError['required']"></p>
+        <p  class="pp" *ngIf="nameError['minlength']">שם המשתמש צריך להכיל לפחות 3 תווים</p>
+      </ng-container>
+    </div>
+    <div *ngIf="displayCourseName" class="loginP">
+      <mat-form-field >
+      <mat-label for="courseName">שם קורס</mat-label>
+      <mat-select (blur)="onInputBlur()" formControlName="courseName" id="courseName" [ngClass]="{'invalid': addForm.get('courseName').invalid && addForm.get('courseName').touched}">
+        <mat-option  *ngFor="let course1 of allCourses" [value]="course1">{{ course1.name }}</mat-option>
+      </mat-select>
+    </mat-form-field>
+    </div>
+
+    <mat-divider></mat-divider>
+    <section>
+      <div class="example-label"></div>
+      <div class="example-button-row">
+    <button mat-flat-button color="primary" (click)="save()" [disabled]="!addForm.valid">כניסה</button>
+    <button mat-flat-button color="primary" (click)="enterLecturer()" [disabled]="!addForm.valid">כניסה למרצים</button>
+      </div>
+    </section>
+
+
+  </div>  </form>
+  
+
+
+  

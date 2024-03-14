@@ -1,0 +1,108 @@
+/* עיצוב כללי לטופס */
+.example-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh; /* גובה מלא של המסך */
+}
+
+.container{
+  width: 30%;
+}
+
+.container mat-form-field + mat-form-field {
+  margin-left: 8px;
+}
+mat-form-field{
+ width: 100%; 
+ margin-right: 0;}
+
+/* עיצוב לשדות הקלט */
+.example-form .mat-form-field {
+  width: 100%; /* רוחב מלא לשדות הקלט */
+  margin-bottom: 10px; /* מרווח בין השדה לבין השדה הבא */
+  display: flex;
+  align-items: flex-end; /* מיושר עם הערות הבדיקה לצד ימין של השדה */
+}
+
+/* עיצוב לקלט */
+.example-form input.mat-input {
+  width: 100%; /* רוחב מלא לכל קלט */
+}
+
+/* עיצוב לערות בדיקת תקינות */
+.example-form .mat-form-field .ng-star-inserted {
+  margin-top:0; /* מרווח מעל כל ערות הבדיקה */
+}
+.example-right-align{
+  width: 100%;
+}
+
+.invalid {
+  border-color: red; /* צבע גבול אדום לשדה אם הוא לא תקין */
+}
+
+/* עיצוב לכפתורים */
+button {
+  margin-top: 20px; /* מרווח מעל הכפתורים */
+}
+.pp{
+  border-color: red;
+}
+
+.ng-star-inserted{
+  margin: 0;
+  padding: 0;
+}
+p{
+  margin: 0;
+}
+.loginP .mat-mdc-text-field-wrapper{
+  padding: 100%;
+  width: 100%;
+}
+.mat-mdc-form-field-infix{
+  padding: 100%;
+  width: 300%;
+}
+
+.mdc-text-field {
+  padding: 0 49px;
+  padding-right:49 px;
+
+}
+section {
+  display: table;
+}
+
+.example-label {
+  display: table-cell;
+  font-size: 14px;
+  margin-left: 8px;
+  min-width: 120px;
+}
+
+.example-button-row {
+  display: table-cell;
+  max-width: 600px;
+}
+
+.example-button-row .mat-mdc-button-base {
+  margin: 8px 8px 8px 0;
+}
+
+.example-flex-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.example-button-container {
+  display: flex;
+  justify-content: center;
+  width: 120px;
+}
+.mat-mdc-form-field-subscript-wrapper {
+  display: none;
+}

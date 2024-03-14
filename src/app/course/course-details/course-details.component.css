@@ -1,0 +1,90 @@
+.course-card {
+  width: 30vw; /* הגדרת רוחב הכרטיסים ב-30% מרוחב המסך */
+  max-width: none; /* ביטול ההגבלה על רוחב מרבי */
+  margin: 0 auto; /* מיקום במרכז העמוד */
+  margin-top: 20px; /* מרווח מעל הכרטיס לתוכן הסביבתי */
+  border-radius: 4px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  direction: rtl;
+  transition: box-shadow 0.3s;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+  
+  .container {
+    margin-top: 100px; /* מרווח מלמעלה */
+    display: flex;
+    justify-content: center;
+ }
+ 
+  .mat-card-header {
+    padding: 16px;
+    background-color: #f5f5f5;
+  }
+  
+  .mat-card-title {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  .mat-card-subtitle {
+    font-size: 14px;
+    color: #666;
+  }
+  
+  .mat-card-content {
+    padding: 16px;
+    
+  }
+  
+  .mat-card-actions {
+    display: flex;
+    justify-content: flex-end;
+    padding: 16px;
+  }
+  
+  .course-card:hover {
+    box-shadow: 0 16px 32px rgba(0, 0, 0, 0.3);
+  }
+  
+  .usercircle {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    font-size: 1.5vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+    padding: 1%;
+    align-items: center;
+  }
+  
+  .edit-button-disabled {
+    color: lightgray;
+    cursor: not-allowed;
+  }
+  .like-animation {
+    display: inline-block;
+    cursor: pointer;
+  }
+  
+  .liked mat-icon {
+    color: rgb(222, 90, 101);
+    transform: scale(1.5);
+    animation: likeAnimation 0.5s ease forwards; /* הוספת האנימציה */
+  }
+  
+  @keyframes likeAnimation {
+    0% {
+      transform: translateX(0);
+    }
+    50% {
+      transform: translateX(-5px); /* תנוד לצד שמאל */
+    }
+    100% {
+      transform: translateX(5px); /* תנוד לצד ימין */
+    }
+  }
+  

@@ -1,0 +1,57 @@
+<form [formGroup]="addForm" class="example-form">
+  <div class="container">
+
+    <div class="loginP">
+      <mat-form-field>
+        <mat-label for="name">שם משתמש</mat-label>
+        <input matInput type="text" formControlName="name" class="example-right-align">
+      </mat-form-field>
+      <ng-container *ngIf="addForm.controls['name'].errors as nameError">
+        <p class="pp" *ngIf="nameError['required']"></p>
+        <p class="pp" *ngIf="nameError['minlength']">שם המשתמש צריך להכיל לפחות 3 תווים</p>
+      </ng-container>
+    </div>
+
+  
+  <div class="loginP">
+    <mat-form-field>
+      <mat-label>address:</mat-label>
+      <input matInput name="address" type="text" formControlName="address">
+    </mat-form-field>
+  </div>
+
+
+
+  <div class="loginP"><mat-form-field>
+      <mat-label for="email">Email:</mat-label>
+      <input matInput placeholder="pat@example.com" type="email" id="email" name="email" formControlName="email">
+    </mat-form-field>
+    <ng-container *ngIf="addForm.controls['email'].errors && !addForm.controls['email'].pristine">
+      <p *ngIf="addForm.controls['email'].errors['required']">
+        זהו שדה חובה</p>
+      <p *ngIf="addForm.controls['email'].errors['emailPattern']">
+        כתובת האימייל אינה תקינה</p>
+    </ng-container>
+  </div>
+
+  <div class="loginP">
+    <mat-form-field>
+      <mat-label for="password">סיסמה</mat-label>
+      <input matInput [type]="hide ? 'password' : 'text'" formControlName="password">
+      <button mat-icon-button matSuffix (click)="hide = !hide" [attr.aria-label]="'Hide password'"
+        [attr.aria-pressed]="hide">
+        <mat-icon>{{hide ? 'visibility_off' : 'visibility'}}</mat-icon>
+      </button></mat-form-field>
+    <ng-container *ngIf="addForm.controls['password'].errors as passwordError">
+      <p class="pp" *ngIf="passwordError['required']"></p>
+      <p class="pp" *ngIf="passwordError['minlength']">הסיסמה צריכה להכיל לפחות 4 תווים</p>
+    </ng-container>
+  </div>
+<section>
+  <div class="example-label"></div>
+  <div class="example-button-row">
+  <button mat-flat-button color="primary" (click)="save()" [disabled]="!addForm.valid">save</button>
+  </div>
+</section>
+  </div>
+</form>

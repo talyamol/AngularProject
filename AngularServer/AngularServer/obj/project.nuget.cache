@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "Lvw0XPFWpVnZkSaT38HsSHpUakxQQxZWeAVAE1xw9b7tWlNKt3e0S5lsCaUV/t9fObbSj7LeWT9uoIT+bHmDEQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\talya\\Documents\\תכנות\\תשפד\\Angular\\ProjectAngular\\AngularServer\\AngularServer\\AngularServer.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\talya\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
+    "C:\\Users\\talya\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\talya\\.nuget\\packages\\swashbuckle.aspnetcore\\6.4.0\\swashbuckle.aspnetcore.6.4.0.nupkg.sha512",
+    "C:\\Users\\talya\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.4.0\\swashbuckle.aspnetcore.swagger.6.4.0.nupkg.sha512",
+    "C:\\Users\\talya\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.4.0\\swashbuckle.aspnetcore.swaggergen.6.4.0.nupkg.sha512",
+    "C:\\Users\\talya\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.4.0\\swashbuckle.aspnetcore.swaggerui.6.4.0.nupkg.sha512"
+  ],
+  "logs": []
+}

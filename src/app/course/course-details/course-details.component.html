@@ -1,0 +1,33 @@
+<div *ngIf="course">
+  <div class="container">
+    <mat-card class="course-card">
+      <mat-card-header (click)="toAllDetails()">
+        <!-- התמונה החדשה -->
+        <div *ngIf="createdByUsername" mat-card-avatar class="usercircle">{{ createdByUsername[0] }}</div>
+        <mat-card-title>{{ course.name }}</mat-card-title>
+      </mat-card-header>
+      <img (click)="toAllDetails()" mat-card-image [src]="course.imageUrl" alt="תמונת קורס">
+      <mat-card-content>
+        <div>
+          <mat-card-subtitle>קטגוריה: {{course.categoryId }}</mat-card-subtitle>
+          תאריך התחלה: {{ course.dateStart }}<br>       
+          סוג הקורס: <mat-icon>{{ course.kindCourse | kindCourse }}</mat-icon> <br>
+          מרצה: {{ course.lecturerId }}<br>
+          סילבוס:
+          <ul>
+            <li *ngFor="let item of course.syllabus">{{ item }}</li>
+          </ul>
+        </div>
+      </mat-card-content>
+      <mat-card-actions>
+        <button mat-button (click)="editCourse()">עריכת פרטי הקורס</button>
+
+        <div class="like-animation" [ngClass]="{ 'liked': isLiked }" (click)="toggleLike()">
+          <mat-icon color="black">thumb_up</mat-icon>
+        </div>
+
+
+      </mat-card-actions>
+    </mat-card>
+  </div>
+</div>
