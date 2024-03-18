@@ -108,20 +108,53 @@ img {
     height: 250px;
     object-fit: cover; /* כדי לשמור על יחסי תצוגה */
 }
-.sidebar {
-    display: none; /* כבה תצוגת הסרגל כברירת מחדל */
-}
+/* .sidebar {
+    display: none;} */
 
 .visible {
     display: block; /* הצג את הסרגל כאשר הוא מקבל את המחלקה visible */
 }
-.filter{
-    /* margin-top:50vh; */
+/* .filter{
+    margin-top:50vh;
 
-}
+} */
 .toggle-sidebar {
     position: fixed; /* קביעת מיקום קבוע לכפתור */
     top: 100px; /* הצמדת הכפתור לחלק העליון של הדף */
     right: 20px; /* מיקום הכפתור בצד הימני של הדף */
     z-index: 999; /* כדי להבטיח שהכפתור יהיה מעל לתוכן הדף */
 }
+
+/* .filters-container {
+    display: none;
+
+} */
+
+.filters-container-open {
+    display: block;
+}
+
+.parent-container{
+    position: fixed;
+    right: 3vw;
+    top: 7vw;
+    width: 10vw;
+    height: 3vw;
+    font-size: 2vw;
+}
+/* .mat-mdc-unelevated-button .mat-mdc-button-touch-target{
+      margin-top:10px;
+margin-right: 70px;
+} */
+.filter{
+    margin: 15px;
+
+}
+
+.mat-mdc-text-field-wrapper {
+    margin: 15px;
+}
+.mat-mdc-text-field-wrapper {
+    height: 10px;
+}
+

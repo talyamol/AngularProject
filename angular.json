@@ -59,11 +59,11 @@
           "configurations": {
             "production": {
               "buildTarget": "course-project:build:production",
-              "proxyConfig": "C:/Users/User/Documents/Angular/finalproject/client/course-project/src/app/proxy.config.json"
+              "proxyConfig": "C:/Users/talya/Documents/תכנות/תשפד/Angular/ProjectAngular/src/app/proxy.config.json"
             },
             "development": {
               "buildTarget": "course-project:build:development",
-              "proxyConfig": "C:/Users/User/Documents/Angular/finalproject/client/course-project/src/app/proxy.config.json"
+              "proxyConfig": "C:/Users/talya/Documents/תכנות/תשפד/Angular/ProjectAngular/src/app/proxy.config.json"
             }
           },
           "defaultConfiguration": "development"
